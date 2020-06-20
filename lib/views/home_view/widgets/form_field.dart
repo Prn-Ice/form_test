@@ -72,7 +72,7 @@ class Field extends StatelessWidget {
           FormFieldViewModel.to.toggleObscureText();
         }
       }, */
-      assignId: true,
+      global: false,
       builder: (model) {
         final formOutlineInputBorder = outlineInputBorder.copyWith(
           borderSide: BorderSide(
