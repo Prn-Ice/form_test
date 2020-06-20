@@ -42,3 +42,10 @@ TextStyle body2 = GoogleFonts.montserrat(
     fontSize: ScreenUtil().setSp(13.0),
     color: haiti,
     decoration: TextDecoration.none);
+
+/// proximaNova semiBold 14.0
+TextStyle button = GoogleFonts.montserrat(
+    fontSize: ScreenUtil().setSp(14.0),
+    fontWeight: FontWeight.w700,
+    color: Colors.white,
+    decoration: TextDecoration.none);
